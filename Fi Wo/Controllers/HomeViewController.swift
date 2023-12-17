@@ -17,10 +17,14 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.addSubview(homeFeedTables)
 
-        
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        homeFeedTables.frame = view.bounds
+    }
 
   
 
