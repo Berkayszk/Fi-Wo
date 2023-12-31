@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45021CBF2B40404500FDD95A /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45021CBE2B40404500FDD95A /* HeroHeaderUIView.swift */; };
 		4574BCAC2B0A2AC800742EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574BCAB2B0A2AC800742EF8 /* AppDelegate.swift */; };
 		4574BCAE2B0A2AC800742EF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574BCAD2B0A2AC800742EF8 /* SceneDelegate.swift */; };
 		4574BCB02B0A2AC800742EF8 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574BCAF2B0A2AC800742EF8 /* MainTabBarViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45021CBE2B40404500FDD95A /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		4574BCA82B0A2AC800742EF8 /* Fi Wo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fi Wo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4574BCAB2B0A2AC800742EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4574BCAD2B0A2AC800742EF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				45D5930B2B2F400700CC46C8 /* CollectionViewTableViewCell.swift */,
+				45021CBE2B40404500FDD95A /* HeroHeaderUIView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				45D593032B2F2A4800CC46C8 /* SearchViewController.swift in Sources */,
 				4574BCB02B0A2AC800742EF8 /* MainTabBarViewController.swift in Sources */,
 				45D5930C2B2F400700CC46C8 /* CollectionViewTableViewCell.swift in Sources */,
+				45021CBF2B40404500FDD95A /* HeroHeaderUIView.swift in Sources */,
 				45D593052B2F2A5500CC46C8 /* DownloadsViewController.swift in Sources */,
 				4574BCAC2B0A2AC800742EF8 /* AppDelegate.swift in Sources */,
 				4574BCAE2B0A2AC800742EF8 /* SceneDelegate.swift in Sources */,
