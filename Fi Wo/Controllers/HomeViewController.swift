@@ -24,8 +24,10 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         homeFeedTables.dataSource = self
         homeFeedTables.delegate = self
         
-        let headerview = HeroHeaderUIView(frame: CGRect(x:0, y:0, width: view.bounds.width, height: 450))
+        let headerview = HeroHeaderUIView(frame: CGRect(x:0, y:0, width: view.bounds.width, height : 450))
         homeFeedTables.tableHeaderView = headerview
+        
+        getTrendingMovies()
 
     }
     private func configureNavBar() {
@@ -87,6 +89,17 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let offset = scrollView.contentOffset.y + defoultOffset
         
         navigationController?.navigationBar.transform = .init(translationX: 0, y: min(0, -offset))
+    }
+    
+    private func getTrendingMovies() {
+        APICaller.shared.getTrendingMovies { results in
+            switch results {
+            case .success(let movies):
+                print(movies)
+            case .failure(let error):
+                print(error)
+            }
+        }
     }
      
 
