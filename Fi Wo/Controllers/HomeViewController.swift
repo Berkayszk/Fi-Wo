@@ -27,7 +27,8 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let headerview = HeroHeaderUIView(frame: CGRect(x:0, y:0, width: view.bounds.width, height : 450))
         homeFeedTables.tableHeaderView = headerview
         
-        getTrendingMovies()
+        fetchData()
+        
 
     }
     private func configureNavBar() {
@@ -70,6 +71,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         header.textLabel?.font = .systemFont(ofSize: 16, weight: .semibold)
         header.textLabel?.frame = CGRect(x: header.bounds.origin.x + 20, y: header.bounds.origin.y, width: 100, height: header.bounds.height)
         header.textLabel?.textColor = .white
+        header.textLabel?.text = header.textLabel?.text?.capitalizeFirstLetter()
         
     }
     
@@ -91,7 +93,8 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         navigationController?.navigationBar.transform = .init(translationX: 0, y: min(0, -offset))
     }
     
-    private func getTrendingMovies() {
+    private func fetchData() {
+        /*
         APICaller.shared.getTrendingMovies { results in
             switch results {
             case .success(let movies):
@@ -99,6 +102,12 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
             case .failure(let error):
                 print(error)
             }
+        } */
+//        APICaller.shared.getTredingtvs { results in
+//
+//        }
+        APICaller.shared.getUpComingMovies { _ in
+            
         }
     }
      
