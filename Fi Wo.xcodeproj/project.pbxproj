@@ -28,6 +28,7 @@
 		45D593032B2F2A4800CC46C8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D593022B2F2A4800CC46C8 /* SearchViewController.swift */; };
 		45D593052B2F2A5500CC46C8 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D593042B2F2A5500CC46C8 /* DownloadsViewController.swift */; };
 		45D5930C2B2F400700CC46C8 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D5930B2B2F400700CC46C8 /* CollectionViewTableViewCell.swift */; };
+		45E5B5552BA11FF200C94C8A /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E5B5542BA11FF200C94C8A /* TitleViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		45D593022B2F2A4800CC46C8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		45D593042B2F2A5500CC46C8 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 		45D5930B2B2F400700CC46C8 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		45E5B5542BA11FF200C94C8A /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 		45D593082B2F3FB000CC46C8 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				45E5B5542BA11FF200C94C8A /* TitleViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				45D593012B2F2A3C00CC46C8 /* UpcomingViewController.swift in Sources */,
 				4533439A2B6048EE00586A50 /* Title.swift in Sources */,
 				4574BCDD2B0A3B9300742EF8 /* HomeViewController.swift in Sources */,
+				45E5B5552BA11FF200C94C8A /* TitleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
