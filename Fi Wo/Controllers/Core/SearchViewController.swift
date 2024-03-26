@@ -23,6 +23,7 @@ class SearchViewController: UIViewController {
             controller.searchBar.searchBarStyle = .minimal
             return controller
         }()
+    
         
         override func viewDidLoad() {
             super.viewDidLoad()
@@ -138,7 +139,7 @@ class SearchViewController: UIViewController {
                     switch result {
                     case .success(let titles):
                         resultsController.titles = titles
-                        resultsController.searchResultsCollectionView.reloadData()
+                        resultsController.searchResultCollectionView.reloadData()
                     case .failure(let error):
                         print(error.localizedDescription)
                     }
