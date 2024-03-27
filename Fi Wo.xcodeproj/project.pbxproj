@@ -11,6 +11,8 @@
 		450B56A52B8225E500497EB8 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 450B56A42B8225E500497EB8 /* SDWebImage */; };
 		450B56A72B8225E500497EB8 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 450B56A62B8225E500497EB8 /* SDWebImageMapKit */; };
 		4533439A2B6048EE00586A50 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453343992B6048EE00586A50 /* Title.swift */; };
+		454593B82BB4AEAA006700CB /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454593B72BB4AEAA006700CB /* TitlePreviewViewController.swift */; };
+		454593BA2BB4B238006700CB /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 454593B92BB4B238006700CB /* TitlePreviewViewModel.swift */; };
 		4574BCAC2B0A2AC800742EF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574BCAB2B0A2AC800742EF8 /* AppDelegate.swift */; };
 		4574BCAE2B0A2AC800742EF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574BCAD2B0A2AC800742EF8 /* SceneDelegate.swift */; };
 		4574BCB02B0A2AC800742EF8 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574BCAF2B0A2AC800742EF8 /* MainTabBarViewController.swift */; };
@@ -53,6 +55,8 @@
 /* Begin PBXFileReference section */
 		45021CBE2B40404500FDD95A /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		453343992B6048EE00586A50 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		454593B72BB4AEAA006700CB /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		454593B92BB4B238006700CB /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		4574BCA82B0A2AC800742EF8 /* Fi Wo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fi Wo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4574BCAB2B0A2AC800742EF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4574BCAD2B0A2AC800742EF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -186,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				45D39EAF2BB3643C0042B61C /* SearchResultsViewController.swift */,
+				454593B72BB4AEAA006700CB /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				45E5B5542BA11FF200C94C8A /* TitleViewModel.swift */,
+				454593B92BB4B238006700CB /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -378,6 +384,7 @@
 				45D5930C2B2F400700CC46C8 /* CollectionViewTableViewCell.swift in Sources */,
 				459D6F672B45F691003C68DA /* APICaller.swift in Sources */,
 				45021CBF2B40404500FDD95A /* HeroHeaderUIView.swift in Sources */,
+				454593BA2BB4B238006700CB /* TitlePreviewViewModel.swift in Sources */,
 				45D593052B2F2A5500CC46C8 /* DownloadsViewController.swift in Sources */,
 				4574BCAC2B0A2AC800742EF8 /* AppDelegate.swift in Sources */,
 				45D39EB02BB3643C0042B61C /* SearchResultsViewController.swift in Sources */,
@@ -385,6 +392,7 @@
 				45D39EB42BB37CD00042B61C /* YoutubeSearchResponse.swift in Sources */,
 				4574BCAE2B0A2AC800742EF8 /* SceneDelegate.swift in Sources */,
 				45D593012B2F2A3C00CC46C8 /* UpcomingViewController.swift in Sources */,
+				454593B82BB4AEAA006700CB /* TitlePreviewViewController.swift in Sources */,
 				4533439A2B6048EE00586A50 /* Title.swift in Sources */,
 				4574BCDD2B0A3B9300742EF8 /* HomeViewController.swift in Sources */,
 				45E5B5552BA11FF200C94C8A /* TitleViewModel.swift in Sources */,
